@@ -99,8 +99,8 @@ Synonyms
 
 |_. Name |_. Data ||
 | SymbolInfo | name_Ref owner_Ref flags_LongNat [privateWithin_Ref] info_Ref |
-| NameInfo | <character sequence of length len_Nat in Utf8 format> |
-| NumInfo | <len_Nat-byte signed number in big endian format> |
+| NameInfo | character sequence of length len_Nat in Utf8 format |
+| NumInfo | len_Nat-byte signed number in big endian format |
 | Ref | Nat |
 | AnnotInfoBody | info_Ref {annotArg_Ref} {name_Ref constAnnotArg_Ref} |
 | AnnotArg | <notextile>Tree OR Constant |
