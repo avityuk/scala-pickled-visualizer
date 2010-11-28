@@ -1,0 +1,14 @@
+target/
+lib_managed/
+src_managed/
+project/boot/
+.project
+.classpath
+.settings/
+.idea
+*.iml
+out/
+*.png
+*.dot
+.hgignore
+.hg
