@@ -3,7 +3,7 @@ h1. Scala pickle data visualizer
 h2. Pickle format
 
 Symbols table
-|| Code || Tag | Data ||
+|_. Code |_. Tag |_. Data |
 | 1 | TERMNAME | len_Nat NameInfo |
 | 2 | TYPENAME | len_Nat NameInfo |
 | 3 | NONEsym | len_Nat |
