@@ -103,5 +103,5 @@ Synonyms
 | NumInfo | <len_Nat-byte signed number in big endian format> |
 | Ref | Nat |
 | AnnotInfoBody | info_Ref {annotArg_Ref} {name_Ref constAnnotArg_Ref} |
-| AnnotArg | <notextile>Tree | Constant</notextile> |
-| ConstAnnotArg | <notextile>Constant | AnnotInfo | AnnotArgArray</notextile> |
+| AnnotArg | <notextile>Tree OR Constant |
+| ConstAnnotArg | Constant OR AnnotInfo OR AnnotArgArray |
