@@ -1,8 +1,16 @@
 h1. Scala pickle data visualizer
 
+h2. Running application
+
+Diagram rendering is done with [Graphviz tool:http://www.graphviz.org]. It should be installed and available in command line.
+
+h3. Demo
+
+There are two demo classes (__TestClass1__, __TestClass2__) provided. Diagrams could be generated for them with **run-demo.sh** script.
+
 h2. Pickle format
 
-Symbols table
+h3. Symbols table
 
 |_. Code |_. Tag |_. Data |
 | 1 | TERMNAME | len_Nat NameInfo |
@@ -95,7 +103,7 @@ Symbols table
 | 50 | MODIFIERS | len_Nat flags_Long privateWithin_Ref |
 
 
-Synonyms
+h3. Synonyms
 
 |_. Name |_. Data ||
 | SymbolInfo | name_Ref owner_Ref flags_LongNat [privateWithin_Ref] info_Ref |
@@ -105,3 +113,4 @@ Synonyms
 | AnnotInfoBody | info_Ref {annotArg_Ref} {name_Ref constAnnotArg_Ref} |
 | AnnotArg | <notextile>Tree OR Constant |
 | ConstAnnotArg | Constant OR AnnotInfo OR AnnotArgArray |
+
