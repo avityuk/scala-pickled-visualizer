@@ -2,11 +2,11 @@ h1. Scala pickle data visualizer
 
 h2. Running application
 
-Diagram rendering is done with [Graphviz tool:http://www.graphviz.org]. It should be installed and available in command line.
+Diagram rendering is done with ["Graphviz tool":http://www.graphviz.org]. It should be installed and available in command line.
 
 h3. Demo
 
-There are two demo classes (__TestClass1__, __TestClass2__) provided. Diagrams could be generated for them with **run-demo.sh** script.
+There are two demo classes (__TestClass1__, __TestClass2__) provided. In order to generate diagrams for them you can use **run-demo.sh** script.
 
 h2. Pickle format
 
