@@ -18,6 +18,7 @@ object PickledVisualizer {
   }
 
   def loadFromClassPath(name: String) {
+    println("Processing class: " + name)
     val clazz: Class[_] = getClass.getClassLoader.loadClass(name)
     new PickleProcessor(clazz).process
   }

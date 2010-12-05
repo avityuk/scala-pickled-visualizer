@@ -1,3 +1,4 @@
 #!/bin/sh
 
-scala -classpath $1 src/PickledVisualizer.scala $2
+scalac -d out src/PickledVisualizer.scala
+scala -classpath out:$1 PickledVisualizer $2

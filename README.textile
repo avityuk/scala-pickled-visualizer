@@ -8,6 +8,10 @@ h3. Demo
 
 There are two demo classes (__TestClass1__, __TestClass2__) provided. In order to generate diagrams for them you can use **run-demo.sh** script.
 
+h3. Custom class file
+
+**run.sh** <classpath> <class name>
+
 h2. Pickle format
 
 h3. Symbols table
