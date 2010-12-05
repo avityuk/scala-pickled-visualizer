@@ -10,7 +10,7 @@ There are two demo classes (__TestClass1__, __TestClass2__) provided. In order t
 
 h3. Custom class file
 
-**run.sh** <classpath> <class name>
+**run.sh classpath class_name**
 
 h2. Pickle format
 
