@@ -14,7 +14,7 @@ h3. Custom class file
 
 h2. Pickle format
 
-Information taken from __scala.reflect.PickleFormat_.
+Information taken from __scala.reflect.PickleFormat__.
 
 h3. Symbols table
 
