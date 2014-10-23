@@ -2,11 +2,12 @@ import java.io.{File, PrintWriter}
 import java.lang.Class
 import java.util.Arrays
 import javax.xml.bind.annotation.{XmlAttribute, XmlType}
-import reflect.generic.PickleFormat._
 import java.lang.Float.intBitsToFloat
 import java.lang.Double.longBitsToDouble
-import reflect.generic.{Flags, ByteCodecs, PickleBuffer}
-
+import scala.reflect.internal.pickling.{ByteCodecs, PickleBuffer}
+import scala.reflect.runtime.universe.Flag._
+import scala.reflect.internal.pickling.PickleFormat._
+import scala.reflect.internal.Flags
 
 object PickledVisualizer {
   def main(args: Array[String]) {
@@ -406,8 +407,6 @@ class PickleProcessor(clazz: Class[_]) {
     map(Flags.SUPERACCESSOR, "SUPERACCESSOR")
     map(Flags.PARAMACCESSOR, "PARAMACCESSOR")
     map(Flags.MODULEVAR, "MODULEVAR")
-    map(Flags.SYNTHETICMETH, "SYNTHETICMETH")
-    map(Flags.MONOMORPHIC, "MONOMORPHIC")
     map(Flags.LAZY, "LAZY")
     map(Flags.IS_ERROR, "IS_ERROR")
     map(Flags.OVERLOADED, "OVERLOADED")
